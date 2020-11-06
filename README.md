@@ -1,6 +1,5 @@
-A method of accessing 'this' inside of an arrow function.
 It can be useful to access `this` inside of functions where the context is defined by `bind` / `apply` calls.
-Arrow functions do not work well with `this` - it is unbindable.
+Arrow functions do not work like normal functions. `this` - is unbindable.
 
 However, we can access the binded `this` using some magic:
 
